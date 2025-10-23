@@ -8,7 +8,6 @@ var class_ryle_radio_1_1_tracks_1_1_radio_track_wrapper =
     [ "GetTrackType", "d2/db4/class_ryle_radio_1_1_tracks_1_1_radio_track_wrapper.html#a909e0f98dc729f0baf120e04a3635a19", null ],
     [ "GetTunePower", "d2/db4/class_ryle_radio_1_1_tracks_1_1_radio_track_wrapper.html#ac7d24219e5c27188f541c3134164ec64", null ],
     [ "Init", "d2/db4/class_ryle_radio_1_1_tracks_1_1_radio_track_wrapper.html#a958441e5c561814d365f208cadf085aa", null ],
-    [ "OnReload", "d2/db4/class_ryle_radio_1_1_tracks_1_1_radio_track_wrapper.html#a632ad84a7c30eb757c83f9dfd559821a", null ],
     [ "ScaleRange", "d2/db4/class_ryle_radio_1_1_tracks_1_1_radio_track_wrapper.html#a1cf48d746261684d3d9f5c3f88fa635d", null ],
     [ "ToString", "d2/db4/class_ryle_radio_1_1_tracks_1_1_radio_track_wrapper.html#ae03e15c79a81c5388617fdf83878b647", null ],
     [ "attenuation", "d2/db4/class_ryle_radio_1_1_tracks_1_1_radio_track_wrapper.html#a58c4483f997c03f1ffbe7ffedd403c9e", null ],

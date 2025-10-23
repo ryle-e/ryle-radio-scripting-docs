@@ -10,6 +10,5 @@ var searchData=
   ['distancefalloff_7',['distanceFalloff',['../db/de5/class_ryle_radio_1_1_components_1_1_radio_broadcaster.html#af016c4c46d5e76046f83ae9a7162cf78',1,'RyleRadio::Components::RadioBroadcaster']]],
   ['dodestroy_8',['DoDestroy',['../da/da4/class_ryle_radio_1_1_tracks_1_1_radio_track_player.html#abcc18a8eb8d857fcf5ce5f41b033ee7d',1,'RyleRadio::Tracks::RadioTrackPlayer']]],
   ['dotrackaction_9',['DoTrackAction',['../d2/d11/class_ryle_radio_1_1_components_1_1_base_1_1_radio_output_track_accessor.html#a9498f37587f54e86b812d2ec5ba81d4a',1,'RyleRadio::Components::Base::RadioOutputTrackAccessor']]],
-  ['drawadvancedoptions_10',['DrawAdvancedOptions',['../d8/d52/class_ryle_radio_1_1_editor_1_1_radio_data_editor.html#a8790a5428af5e125e0b0ea8016a5423e',1,'RyleRadio::Editor::RadioDataEditor']]],
-  ['duration_11',['duration',['../d8/df8/class_ryle_radio_1_1_tracks_1_1_procedural_radio_track.html#a3fd80112352b4996a78634016a0b0c4a',1,'RyleRadio::Tracks::ProceduralRadioTrack']]]
+  ['duration_10',['duration',['../d8/df8/class_ryle_radio_1_1_tracks_1_1_procedural_radio_track.html#a3fd80112352b4996a78634016a0b0c4a',1,'RyleRadio::Tracks::ProceduralRadioTrack']]]
 ];

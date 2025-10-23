@@ -15,7 +15,7 @@ var searchData=
   ['tracktypesasstrings_12',['TrackTypesAsStrings',['../d2/db4/class_ryle_radio_1_1_tracks_1_1_radio_track_wrapper.html#ae8915dc640d6e927887836fe4c0257a0',1,'RyleRadio::Tracks::RadioTrackWrapper']]],
   ['trackw_13',['TrackW',['../da/da4/class_ryle_radio_1_1_tracks_1_1_radio_track_player.html#acfdd338125deed698d82e168e23f7dff',1,'RyleRadio::Tracks::RadioTrackPlayer']]],
   ['trackwrappers_14',['TrackWrappers',['../da/dc0/class_ryle_radio_1_1_radio_data.html#af6467a15aba98c56347d3468e8c96fa4',1,'RyleRadio::RadioData']]],
-  ['trackws_15',['trackWs',['../d8/d52/class_ryle_radio_1_1_editor_1_1_radio_data_editor.html#a59692862cfef7ac05de7e0694195478a',1,'RyleRadio.Editor.RadioDataEditor.trackWs'],['../da/dc0/class_ryle_radio_1_1_radio_data.html#adbb478e6938bfa62dc148c6f5a5cfe17',1,'RyleRadio.RadioData.trackWs']]],
+  ['trackws_15',['trackWs',['../da/dc0/class_ryle_radio_1_1_radio_data.html#adbb478e6938bfa62dc148c6f5a5cfe17',1,'RyleRadio::RadioData']]],
   ['triggerevent_16',['TriggerEvent',['../d1/d58/class_ryle_radio_1_1_components_1_1_radio_observer.html#a1a767f69b2219c279f0f1431d558ebbd',1,'RyleRadio::Components::RadioObserver']]],
   ['trygetplayer_17',['TryGetPlayer',['../d2/d2d/class_ryle_radio_1_1_components_1_1_radio_output.html#ae8c6b2564a76ec5555387c60111d2fa4',1,'RyleRadio::Components::RadioOutput']]],
   ['trygettrack_18',['TryGetTrack',['../da/dc0/class_ryle_radio_1_1_radio_data.html#ad27ed8d69e9bb9813157bdc45f50d032',1,'RyleRadio::RadioData']]],

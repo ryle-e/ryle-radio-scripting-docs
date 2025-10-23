@@ -5,8 +5,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.14.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Ryle Radio: D:/GitHub/ryle-radio/Assets/RyleRadio/Scripts/Runtime/Tracks/RadioTrackWrapper.cs Source File</title>
-<link rel="icon" href="../../ryleradiologo_color.svg" type="image/x-icon" />
+<title>Ryle Radio: Runtime/Tracks/RadioTrackWrapper.cs Source File</title>
+<link rel="icon" href="../../ryleradiologo_color_small.png" type="image/x-icon" />
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -31,7 +31,7 @@
   <td id="projectalign">
    <div id="projectname">Ryle Radio<span id="projectnumber">&#160;1.0.0</span>
    </div>
-   <div id="projectbrief">A &quot;radio&quot; system for Unity with tuning, broadcasters, code-free interactions, and more!</div>
+   <div id="projectbrief">An open-source &quot;radio&quot; system for Unity, allowing tracks, tuning, broadcasters, and more!</div>
   </td>
  </tr>
  </tbody>
@@ -330,14 +330,12 @@ $(function(){initNavTree('da/de3/_radio_track_wrapper_8cs_source.html','../../',
 <div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span><span class="comment">        /// Static; resets available track types and names</span></div>
 <div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span><span class="comment">        /// &lt;/summary&gt;</span></div>
 <div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span>        [InitializeOnLoadMethod]</div>
-<div class="foldopen" id="foldopen00227" data-start="{" data-end="}">
-<div class="line"><a id="l00227" name="l00227"></a><span class="lineno"><a class="line" href="../../d2/db4/class_ryle_radio_1_1_tracks_1_1_radio_track_wrapper.html#a632ad84a7c30eb757c83f9dfd559821a">  227</a></span>        <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../d2/db4/class_ryle_radio_1_1_tracks_1_1_radio_track_wrapper.html#a632ad84a7c30eb757c83f9dfd559821a">OnReload</a>()</div>
+<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span>        <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> OnReload()</div>
 <div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>        {</div>
 <div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span>            trackTypes = <span class="keyword">null</span>;</div>
 <div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span>            trackTypesAsStrings = <span class="keyword">null</span>;</div>
 <div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>            trackNames = <span class="keyword">null</span>;</div>
 <div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>        }</div>
-</div>
 <div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span><span class="comment"></span> </div>
 <div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span><span class="comment">        /// &lt;summary&gt;</span></div>
@@ -497,7 +495,6 @@ $(function(){initNavTree('da/de3/_radio_track_wrapper_8cs_source.html','../../',
 <div class="ttc" id="aclass_ryle_radio_1_1_tracks_1_1_radio_track_wrapper_html_a5bed44201bd34688ce018c8b0eef42f0"><div class="ttname"><a href="../../d2/db4/class_ryle_radio_1_1_tracks_1_1_radio_track_wrapper.html#a5bed44201bd34688ce018c8b0eef42f0">RyleRadio.Tracks.RadioTrackWrapper.GetSample</a></div><div class="ttdeci">float GetSample(int _sampleIndex)</div><div class="ttdoc">Get a sample from the contained track.</div><div class="ttdef"><b>Definition</b> <a href="#l00346">RadioTrackWrapper.cs:346</a></div></div>
 <div class="ttc" id="aclass_ryle_radio_1_1_tracks_1_1_radio_track_wrapper_html_a5cdcbc0b98d93a71c50bea2c0116552a"><div class="ttname"><a href="../../d2/db4/class_ryle_radio_1_1_tracks_1_1_radio_track_wrapper.html#a5cdcbc0b98d93a71c50bea2c0116552a">RyleRadio.Tracks.RadioTrackWrapper.broadcasters</a></div><div class="ttdeci">List&lt; RadioBroadcaster &gt; broadcasters</div><div class="ttdoc">The broadcasters in the scene that have this track selected.</div><div class="ttdef"><b>Definition</b> <a href="#l00095">RadioTrackWrapper.cs:95</a></div></div>
 <div class="ttc" id="aclass_ryle_radio_1_1_tracks_1_1_radio_track_wrapper_html_a5ced7fa006129abc0db99e8093e89df5"><div class="ttname"><a href="../../d2/db4/class_ryle_radio_1_1_tracks_1_1_radio_track_wrapper.html#a5ced7fa006129abc0db99e8093e89df5">RyleRadio.Tracks.RadioTrackWrapper.TrackNames</a></div><div class="ttdeci">static string[] TrackNames</div><div class="ttdoc">Static; the list of track types stored as their display names. This is shown as a dropdown for trackT...</div><div class="ttdef"><b>Definition</b> <a href="#l00188">RadioTrackWrapper.cs:189</a></div></div>
-<div class="ttc" id="aclass_ryle_radio_1_1_tracks_1_1_radio_track_wrapper_html_a632ad84a7c30eb757c83f9dfd559821a"><div class="ttname"><a href="../../d2/db4/class_ryle_radio_1_1_tracks_1_1_radio_track_wrapper.html#a632ad84a7c30eb757c83f9dfd559821a">RyleRadio.Tracks.RadioTrackWrapper.OnReload</a></div><div class="ttdeci">static void OnReload()</div><div class="ttdoc">Static; resets available track types and names.</div><div class="ttdef"><b>Definition</b> <a href="#l00227">RadioTrackWrapper.cs:227</a></div></div>
 <div class="ttc" id="aclass_ryle_radio_1_1_tracks_1_1_radio_track_wrapper_html_a654a6d6c0fb9ef30e5d7383f633bbdb0"><div class="ttname"><a href="../../d2/db4/class_ryle_radio_1_1_tracks_1_1_radio_track_wrapper.html#a654a6d6c0fb9ef30e5d7383f633bbdb0">RyleRadio.Tracks.RadioTrackWrapper.Gain</a></div><div class="ttdeci">float Gain</div><div class="ttdoc">The gain value scaled down to ones- e.g gain at 200 is Gain at 2.</div><div class="ttdef"><b>Definition</b> <a href="#l00139">RadioTrackWrapper.cs:139</a></div></div>
 <div class="ttc" id="aclass_ryle_radio_1_1_tracks_1_1_radio_track_wrapper_html_a74adba53bd688378c4a5fc3140ff4d67"><div class="ttname"><a href="../../d2/db4/class_ryle_radio_1_1_tracks_1_1_radio_track_wrapper.html#a74adba53bd688378c4a5fc3140ff4d67">RyleRadio.Tracks.RadioTrackWrapper.DefaultRangeCurve</a></div><div class="ttdeci">static AnimationCurve DefaultRangeCurve</div><div class="ttdoc">The default rangeCurve to use when an empty wrapper is created. It&#39;s a super basic and smooth closed ...</div><div class="ttdef"><b>Definition</b> <a href="#l00024">RadioTrackWrapper.cs:24</a></div></div>
 <div class="ttc" id="aclass_ryle_radio_1_1_tracks_1_1_radio_track_wrapper_html_a778c05ac1056316fc9224e13c80c340c"><div class="ttname"><a href="../../d2/db4/class_ryle_radio_1_1_tracks_1_1_radio_track_wrapper.html#a778c05ac1056316fc9224e13c80c340c">RyleRadio.Tracks.RadioTrackWrapper.range</a></div><div class="ttdeci">Vector2 range</div><div class="ttdoc">The range of tunes in which this track can be heard. If a RadioOutput.Tune value is within this range...</div><div class="ttdef"><b>Definition</b> <a href="#l00053">RadioTrackWrapper.cs:53</a></div></div>
@@ -526,8 +523,8 @@ $(function(){initNavTree('da/de3/_radio_track_wrapper_8cs_source.html','../../',
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="../../dir_9745398d2e829eaf58e94224417b1745.html">ryle-radio</a></li><li class="navelem"><a href="../../dir_41c6a92ab74f351aec1fb579856b1301.html">Assets</a></li><li class="navelem"><a href="../../dir_f10da3808a9e4a556ae34c82dd74607a.html">RyleRadio</a></li><li class="navelem"><a href="../../dir_79b53c72a5b1fe37ebcd12318605a2a9.html">Scripts</a></li><li class="navelem"><a href="../../dir_9b7b248da4e18145f18483313fe59a02.html">Runtime</a></li><li class="navelem"><a href="../../dir_ed88610c366bf542570f23698d4442a0.html">Tracks</a></li><li class="navelem"><b>RadioTrackWrapper.cs</b></li>
-    <li class="footer">Generated on <span class="timestamp"></span> for Ryle Radio by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+    <li class="navelem"><a href="../../dir_4f6666a8f2ab10bc970eb7559668f031.html">Runtime</a></li><li class="navelem"><a href="../../dir_27d8c5c31444ad8d4ed387413c4c97b4.html">Tracks</a></li><li class="navelem"><b>RadioTrackWrapper.cs</b></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
   </ul>
 </div>
 </body>

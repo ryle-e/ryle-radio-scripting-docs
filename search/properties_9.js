@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['paused_0',['Paused',['../da/da4/class_ryle_radio_1_1_tracks_1_1_radio_track_player.html#a735ce7ede282d98fd8ad863781dd8a69',1,'RyleRadio::Tracks::RadioTrackPlayer']]],
-  ['playtype_1',['PlayType',['../da/da4/class_ryle_radio_1_1_tracks_1_1_radio_track_player.html#a8aa5c6b343b84685a405b34ce5c120a7',1,'RyleRadio::Tracks::RadioTrackPlayer']]],
-  ['progress_2',['Progress',['../da/da4/class_ryle_radio_1_1_tracks_1_1_radio_track_player.html#a2b0e7569f0ed06667c8ba97478b7ba41',1,'RyleRadio::Tracks::RadioTrackPlayer']]],
-  ['progressfraction_3',['ProgressFraction',['../da/da4/class_ryle_radio_1_1_tracks_1_1_radio_track_player.html#a1399740d1521db736029501f7506306a',1,'RyleRadio::Tracks::RadioTrackPlayer']]]
+  ['samplecount_0',['SampleCount',['../df/dbc/class_ryle_radio_1_1_tracks_1_1_radio_track.html#ab9bc3ce18b760fcfd3ae4867ded40698',1,'RyleRadio.Tracks.RadioTrack.SampleCount'],['../d2/db4/class_ryle_radio_1_1_tracks_1_1_radio_track_wrapper.html#a3bd3948910de5c7cd75d8d719f3b3181',1,'RyleRadio.Tracks.RadioTrackWrapper.SampleCount'],['../d3/df2/interface_ryle_radio_1_1_tracks_1_1_i_radio_track.html#a685caea859dcd3eb1380c93c50cbf473',1,'RyleRadio.Tracks.IRadioTrack.SampleCount']]],
+  ['samplerate_1',['SampleRate',['../df/dbc/class_ryle_radio_1_1_tracks_1_1_radio_track.html#a3bc4c9f7923a9314dffdd21f41723941',1,'RyleRadio.Tracks.RadioTrack.SampleRate'],['../d2/db4/class_ryle_radio_1_1_tracks_1_1_radio_track_wrapper.html#a371731bf6b4073531e24e375ca078d4a',1,'RyleRadio.Tracks.RadioTrackWrapper.SampleRate'],['../d3/df2/interface_ryle_radio_1_1_tracks_1_1_i_radio_track.html#a236344d2bf8d79e95c2d0d40da926cb2',1,'RyleRadio.Tracks.IRadioTrack.SampleRate']]],
+  ['samples_2',['Samples',['../de/d66/class_ryle_radio_1_1_tracks_1_1_clip_radio_track.html#afb9a8b8a3532d55b7ba050ec54b9e40a',1,'RyleRadio::Tracks::ClipRadioTrack']]],
+  ['showapplytoalloutputs_3',['ShowApplyToAllOutputs',['../db/de5/class_ryle_radio_1_1_components_1_1_radio_broadcaster.html#a38c35521757833791031ce809c7f1027',1,'RyleRadio.Components.RadioBroadcaster.ShowApplyToAllOutputs'],['../de/def/class_ryle_radio_1_1_components_1_1_radio_insulator.html#a025d76cec1f1d224879fa4896f89610f',1,'RyleRadio.Components.RadioInsulator.ShowApplyToAllOutputs']]]
 ];
