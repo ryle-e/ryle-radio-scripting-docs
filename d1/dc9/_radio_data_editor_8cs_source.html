@@ -29,7 +29,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="../../ryleradiologo_color_small.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Ryle Radio<span id="projectnumber">&#160;1.0.0</span>
+   <div id="projectname">Ryle Radio<span id="projectnumber">&#160;1.0.1</span>
    </div>
    <div id="projectbrief">An open-source &quot;radio&quot; system for Unity, allowing tracks, tuning, broadcasters, and more!</div>
   </td>
@@ -328,12 +328,12 @@ $(function(){initNavTree('d1/dc9/_radio_data_editor_8cs_source.html','../../',''
 <div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>            <span class="keywordflow">else</span> <span class="comment">// otherwise if it&#39;s set to 0 or less,</span></div>
 <div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>                sampleSettings.sampleRateOverride = (uint)AudioSettings.outputSampleRate; <span class="comment">// set it to the game&#39;s default</span></div>
 <div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span> </div>
-<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span>            <span class="comment">// if the sample rate was changed, let the user know</span></div>
-<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span>            <span class="keywordflow">if</span> (sampleSettings.sampleRateOverride !=  lastSampleRate)</div>
-<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span>                Debug.Log(<span class="stringliteral">&quot;Changed clip {_clip} sample rate to {sampleSettings.sampleRateOverride} for platform {buildTarget}.&quot;</span>);</div>
-<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span> </div>
-<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span>            <span class="comment">// apply the sample rate override</span></div>
-<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span>            importer.SetOverrideSampleSettings(buildTarget, sampleSettings);</div>
+<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span>            <span class="comment">// apply the sample rate override</span></div>
+<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span>            importer.SetOverrideSampleSettings(buildTarget, sampleSettings);</div>
+<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span> </div>
+<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span>            <span class="comment">// if the sample rate was changed, let the user know</span></div>
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span>            <span class="keywordflow">if</span> (sampleSettings.sampleRateOverride !=  lastSampleRate)</div>
+<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span>                Debug.Log($<span class="stringliteral">&quot;Changed clip {_clip} sample rate to {sampleSettings.sampleRateOverride} for platform {buildTarget}.&quot;</span>);</div>
 <div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span>        }</div>
 <div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span>    }</div>
 <div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span><span class="preprocessor">#endif</span></div>
